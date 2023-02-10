@@ -75,8 +75,8 @@ $(BUILD):
 
 install: $(BUILD)
 	@echo Copying...
-	@cp -frv include/dll.hpp $(OO_PS4_TOOLCHAIN)/include/unrar.h
-	@cp -frv $(TARGET).a $(OO_PS4_TOOLCHAIN)/lib
+	@cp -frv include/dll.hpp $(OO_PS4_TOOLCHAIN)/usr/include/unrar.h
+	@cp -frv $(TARGET).a $(OO_PS4_TOOLCHAIN)/usr/lib
 	@echo lib installed!
 clean:
 	@echo Clean...
